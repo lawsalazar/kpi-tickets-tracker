@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Case Tracker</title>
     <link rel="stylesheet" href="style.css"> <!-- Link to your CSS file -->
 </head>
+
 <body>
     <h1>Case Tracker</h1>
+    <p>Current Philippine Time: <span id="ph-time"></span></p> <!-- Philippine Time Display -->
     <form id="caseForm">
         <input type="date" id="dateEntered" required>
         <input type="text" id="caseNumber" placeholder="Case Number" required>
@@ -17,6 +20,7 @@
     <h2>Entered Cases</h2>
     <ul id="casesList"></ul>
 
-    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+    <script src="script.js"></script>
 </body>
+
 </html>
